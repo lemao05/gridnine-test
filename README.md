@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Установка проекта
+1. Cклонировать репозиторий `git clone https://github.com/lemao05/gridnine-test.git`
+2. Перейти в папку с проектом `cd gridnine`
+3. Установить зависимости `npm i`
+4. Запустить проект `npm run dev`
