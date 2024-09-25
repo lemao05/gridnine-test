@@ -1,0 +1,94 @@
+$theader: #0087c9;
+$ttext: #00a6e1;
+$tbutton: #ffb168;
+
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .ticket {
+    width: 650px;
+
+    button {
+      background-color: $tbutton;
+      border: none;
+      width: 100%;
+      color: white;
+      padding: 0.7rem 0;
+      margin-top: 0.5rem;
+    }
+
+    .ticket-title {
+      background-color: $theader;
+      color: white;
+      text-align: end;
+      padding-inline: 1rem;
+
+      p {
+        font-size: 12px;
+      }
+
+      p:first-of-type {
+        font-size: 20px;
+      }
+    }
+
+    .legs {
+      padding-inline: 0.5rem;
+
+      & > div:first-of-type {
+        border-bottom: 2px solid #0084c5;
+        padding-bottom: 0.5rem;
+      }
+
+      .destination {
+        border-bottom: 1px solid rgb(233, 233, 233);
+        padding: 0.5rem;
+
+        .uid {
+          color: $ttext;
+        }
+      }
+
+      .date-time {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 2rem;
+
+        .time {
+          font-size: 20px;
+        }
+
+        .date {
+          color: $ttext;
+          font-weight: normal;
+          font-size: 15px;
+        }
+      }
+
+      .transfers {
+        display: flex;
+        align-items: center;
+        padding-inline: 4rem;
+        padding-bottom: 0.5rem;
+
+        p {
+          color: $tbutton;
+          padding-inline: 1rem;
+        }
+
+        .line {
+          height: 2px;
+          background-color: rgb(211, 211, 211);
+          flex-grow: 1;
+          width: 100px;
+        }
+      }
+
+      & > div > p {
+        padding-inline: 0.5rem;
+      }
+    }
+  }
+}
